@@ -1,0 +1,492 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 1px solid #0086C6;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    word-spacing: 5px;
+    font-size: 13px;
+    margin: 0px 0px 50px;
+}
+button:hover{
+    background-color: rgb(60, 60, 224);
+    color: white;
+    border: none;
+}
+section{
+    height:1000px;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 120px;
+    position: fixed;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 63%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.menu{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-size: 13px;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+    border: none;
+    letter-spacing: -0.9px;
+}
+a img{
+    width: 20px;
+}
+a:hover{
+    color:rgb(60,60,224) ;
+}
+.menu a select{
+    border: none;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 630;
+    letter-spacing: -0.9px;
+    cursor: pointer;
+}
+.menu a select:hover{
+    color: rgb(60,60,224);
+}
+.left{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search img{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.sign{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-wrap{
+    padding-top: 60px;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url(post.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 120px 100px;
+    position: relative;
+    color: white;
+}
+.text{
+    position: absolute;
+    bottom: 0px;
+}
+.text h2{
+    font-size: 30px; 
+    letter-spacing: -0.9px;
+    line-height: 40px;
+}
+p{
+    margin: 20px 0px;
+    line-height: 22px;
+}
+section{
+    padding: 0px 0px 300px;
+}
+section .box-1{
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    margin-top: -220px;
+}
+section .box{
+    width: 24%;
+    height: 550px;
+    margin: 20px;
+    margin-top: -290px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+section .box-1 .box img{
+    clip-path: polygon(0% 0%, 100% 0%, 100.1% 85.3%, 0.1% 100.3%);
+    width:10%;
+ height: 305px;
+}
+.box-2{
+    justify-content: center;
+    display: flex;
+}
+.box-2 h3{
+    font-size: 12px;
+    color: #666666;
+}
+.box-3{
+    display: flex;
+    justify-content: center;
+}
+.box-3 h4{
+    margin: 30px;
+}
+.box-4{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    letter-spacing: 0.9px;
+
+}
+.box-4 button{
+    font-size: 10px;
+    border: 1px solid black;
+    letter-spacing: 0.9px;
+
+}
+.box-4 :hover{
+    border: 1px solid #0086C6;
+}
+.video {
+    float: left;
+    display: flex;
+}
+.video iframe{
+    margin: -500px 0px 0px 100px;
+}
+.text10 h1{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: -460px 0px 0px 400px; 
+    letter-spacing: -0.9px;
+}
+.text10 h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 670px;
+    letter-spacing: -0.9px;
+}
+.text10 h3{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 20px 0px 0px 850px;
+    font-weight: 300;
+    color: black;
+}
+.text2 p{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 480px;
+    font-weight: 300;
+    color: black;}
+.link{
+    margin: 0px 0px 0px 855px;
+    font-weight: 300;
+    color: black;}
+.link a{
+    display: flex;
+    justify-content: center;
+    margin: -16px 0px 0px -360px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.10px;
+}
+a :hover{
+    color: #0086C6;
+}
+.tittle{
+    font-size: 50px;
+    margin: 150px 90px;
+    letter-spacing: -0.50px;
+}
+.card{
+    width: 100%;
+    height: 400px;
+    margin: -90px 0px 0px 0px;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 22.7%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.card1 h1{
+    font-size: 15px;
+    color: #666666;
+    margin: 30px 0px 0px 80px;
+}
+.card1 h2{
+    font-size: 19px;
+    margin: 30px 0px 0px 20px;
+    letter-spacing: 0.10;
+}
+.tittle1{
+    display: flex;
+    float: left;
+}
+.tittle1 b{
+    font-size: 50px;
+    margin: 0px 90px;
+    letter-spacing: -0.50px
+}
+.tittle1 h1 button{
+    border: 1px solid black;
+    margin: 0px 0px 20px;
+}
+.tittle1 h2 button{
+    border: 1px solid black;
+    margin: 5px 0px 0px 20px;
+}
+.tittle2{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+.card2{
+    width: 18%;
+    height: 520px;
+}
+.card2 img{
+    width: 100%;
+    height: 350px;
+}
+.card2 h1{
+    font-size: 20px;
+    margin: 4px 0px 0px 30px;
+}
+.card2 button{
+    font-size: 14px;
+    border: 1px solid black;
+    margin: 10px 0px 0px 60px;
+}
+.tittle3 b{
+    font-size: 45px;
+    margin: 0px 90px;
+    letter-spacing: -0.50px
+}
+.tittle4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding: 0px 150px 0px 90px;   
+}
+.tittle4 img{
+    height: 80px;
+    margin: 190px -40px 0px 0px;
+}
+.card3{
+    width: 20%;
+    height: 400px;
+}
+.card3 img{
+    height: 300px;
+    margin: 90px 0px 0px 0px;   
+}
+.card3 h1{
+    font-size: 18px;
+}
+.card3 h2{
+    font-size: 20px;
+    margin: 20px 0px 0px 90px;
+}
+.card3 button{
+    margin: 20px 0px 0px 30px;
+}
+.pic{
+    padding-top: 630px;
+}
+.hero1{
+    background-image: url(pic1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+.text1{
+    position: absolute;
+    bottom: 0px;
+}
+.text1 h2{
+    font-size: 30px; 
+    letter-spacing: -0.9px;
+    line-height: 40px;
+    margin: 0px 0px 0px 390px;
+}
+.text1 p{
+    margin: 20px 0px 20px 590px;
+    line-height: 22px;
+}
+.text1 button{
+    margin: 0px 0px 60px 690px;
+}
+.tittle5{
+    font-size: 50px;
+    margin: 20px 0px 0px 90px;
+}
+.tittle5 button{
+    margin: 0px 0px 0px 90px;
+}
+.tittle6{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 80px 30px 0px 20px;
+}
+.card4{
+    width: 25%;
+    height: 500px;
+    margin: 0px 90px 0px 90px;
+}
+.card4 img{
+    height: 300px;
+    width: 100%;
+}
+.card4 h1{
+    font-size: 15px;
+    color: #666666;
+    margin: 10px 0px 0px 90px;
+}
+.card4 h2{
+    font-size: 20px;
+    margin:  10px 0px 0px 30px;
+}
+
+footer{
+    width: 100%;
+    height: 620px;
+    margin-top: 50px;
+}
+.footer{
+    width: 100%;
+    height: 456px;
+    display: flex;
+    background: rgb(43,5,69);
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(43,5,69,1) 7%, rgba(86,21,182,1) 70%);
+}
+.footer-1{
+    width: 60%;
+    height: 420px;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+.footer-1 h1{
+    font-family: GretaSansCondensedStd, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 3rem;
+    color: white;
+    margin-top: 140px;
+    margin-left: 40px;
+}
+.footer-1 p{
+    font-size: 15px;
+    margin-top: 8px;
+    color: white;
+    margin-left: 40px;
+}
+.footer-1 button{
+    color: white;
+    border: 1px solid white;
+    background-color: #2B0545;  
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 17px 30px;
+}
+.footer-1 button:hover{
+    background-color: rgb(60, 60, 224);
+}
+.footer-2{
+    width: 40%;
+    height: 420px;
+}
+.footer-2 img{
+    width: 100%;
+    margin-top: 50px;
+}
+.foot{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    background-color: black;
+    cursor: pointer;
+}
+.foot .logo{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+.foot .list{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.foot .list .line{
+    width: 1px;
+    height: 20px;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+.foot .list h5{
+    font-size: 15px;
+    margin-left: 15px;
+    color: white;
+}
+.and{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.and h4{
+    color: white;
+    font-size: 15px;
+}
